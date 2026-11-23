@@ -6,7 +6,7 @@ from django.core.exceptions import ValidationError
 from .models import Servicio
 
 
-# ServicioForm: el mismo ModelForm del paso 01, ahora con una regla extra
+# ServicioForm: el mismo ModelForm (modificar)del paso 01, ahora con una regla extra
 class ServicioForm(forms.ModelForm):
     # Meta: configuración del formulario (de qué modelo sale y qué campos muestra)
     class Meta:
